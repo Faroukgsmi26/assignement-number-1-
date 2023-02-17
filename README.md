@@ -47,6 +47,11 @@ find_silver_token():
 		return dist, rot_y, Token_Codes
 </pre>
 
+The following line should be added to the previous if loop in order to display the grabbed box ID
+<pre>
+print (MARKER_TOKEN_SILVER)
+</pre>
+
 ### find_unpaired_golden_token:
 
 This function searches for golden tokens and checks if the token code is already paired in the Golden_Codes list, which means that the token is already paired, so it looks for another golden token.
